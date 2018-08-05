@@ -280,6 +280,23 @@ already met by Anaconda, but if you're in some other Python environment, you
 can install all the rest of the requirements for Pipulate with pip install
 pandas (a VERY BIG install).
 
+Step #2: Install Pandas and pytz from Anaconda. 
+
+Select your environment and then find the following uninstalled programs:
+
+    1. pandas
+    2. pytz
+    3. colorama
+    
+Select the checkbox then click apply.
+
+Step #3: Install Python libraries
+
+    !pip install oauth2client
+    !pip install pyfiglet
+    !pip install logzero
+
+
 ########################################
 For the impatient
 ########################################
